@@ -9,4 +9,7 @@ body{
 .rgba{
   color: rgba(100%, 40%, 10%, .5);
 }
+
+.hsl{
+  color: hsl(120, 100%, 50%);
   
