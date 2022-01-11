@@ -11,5 +11,10 @@ body{
 }
 
 .hsl{
-  color: hsl(120, 100%, 50%);
+  color: hsl(370, 100%, 50%);
+}
+
+.hsla{
+  colot: hsla(370, 100%, 50%, .5);
+}
   
