@@ -3,16 +3,24 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Color Making Page</title>
+		<title>CSS Relational Selectors</title>
 	
+		<style>
+			section.red{
+				color: red;
+			}
+		</style>
 	</head>
 
 	<body>
-    <p class="rgb">RGB</p>
-    <p class="rgba">RGBA</p>
-    <p class="hsl">HSL</p>
-    <p class="hsla">HSLA</p>
-    <p class="rgb">Going... going... going... going... going... going... going... going...</p>
-    <p class="rgba">White going...White going...White going...White going...</p>
+		<section class="red">
+			<p>My p in a section</p>
+		</section>
+	
+		<section>
+			<p>My p in another section</p>
+		</section>
+		
+		<p>OUtside of any section</p>
 	</body>
 </html>
