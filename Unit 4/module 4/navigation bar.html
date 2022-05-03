@@ -6,21 +6,38 @@
     <title>Psuedo Class and Elements</title>
     
     <style>
-      a:link{
+      ul {
+        list-style-type:none;
+        
+      }
+      
+      li {
+        float:left;
+      }
+      li a:link{
         color: orange;
       }
-      a:visited{
+     li a:visited{
         color: gray;
       }
-      a:activate{
+     li a:activate{
         color: yellow;
       }
-      a:hover{
+     li a:hover{
+        color: red;
+       background-color:blue;
+      }
+     li a:focus{
         color: red;
       }
-      a:focus{
-        color: red;
+      
+      li a{
+       display:block;
+        color:white;
+        text-align:center;
+        text-decoration: none;
       }
+      
       section p:first-child{
         color: red;
       }
